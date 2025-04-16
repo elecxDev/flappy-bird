@@ -8,7 +8,8 @@ public class BirdMovement : MonoBehaviour
     public Rigidbody2D myRigidBody;
     public float jumpForce = 5f;
     public float gravityScale = 1.5f;
-    public bool isBirdAlive = true
+    public bool isBirdAlive = true;
+
     // Start is called before the first frame update
     void Start()
     {
